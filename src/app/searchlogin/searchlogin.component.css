@@ -1,0 +1,19 @@
+.form-structure{
+    margin-top: 50px;
+}
+.title{
+    margin-bottom: 30px;
+}
+.artist-name,.no-of-tracks{
+    margin-bottom: 35px;
+}
+@media(max-width:767px){
+    .track-label, .artist-label{
+        text-align: left;
+    }
+}
+@media(min-width:768px){
+    .track-label, .artist-label{
+        text-align: right;
+    }
+}

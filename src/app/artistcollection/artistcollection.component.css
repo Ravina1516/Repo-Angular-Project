@@ -1,0 +1,40 @@
+.main-container{
+    margin-top: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #e9ecef;
+  }
+  
+  li {
+     display: inline;
+  }
+  
+  li a {
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  @media(max-width:767px){
+    li a{
+        padding: 12px;
+    }
+  }
+  
+  li a:hover {
+    background-color:darkgrey;
+  }
+  .artists-information{
+      margin-top: 50px;
+  }
+  .artist-info{
+      padding: 5px 0;
+  }
+  h5{
+      margin-bottom: 20px;
+  } 
